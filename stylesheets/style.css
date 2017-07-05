@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Merienda+One');
+
+*{
+  padding: 0;
+  margin: 0;
+  /*border: 1px dashed;*/
+}
+
+body {
+  background-color: #157F1F;
+}
+
+/*p, a font-size = 16px auto*/
+p, a {
+  font-family: 'Arima Madurai', cursive, sans-serif;
+  font-size: 20px;
+}
+
+/*h1 font-size = 32px auto*/
+h1 {
+  font-family: 'Merienda One', cursive, serif;
+  font-size: 50px;
+}
+
+/*h1 font-size = 24 auto*/
+h2 {
+  font-family:'Merienda One', cursive, serif;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+
+.banner {
+  background-color: #DAFFED;
+  color: #7A7978;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 10px 10px;
+  text-align: center;
+}
+
+.page-top {
+  padding-top: 60px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top:0;
+  background-color: #157F1F;
+}
+
+.navbar {
+  list-style: none;
+  overflow: hidden;
+  background-color: #B8EBBE;
+}
+
+li a, .dropdwn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #7A7978;
+  min-width: 60px;
+  border-right: 2px solid #7A7978; 
+  border-left: 2px solid #7A7978;
+}
+
+li a:hover, .dropdown:hover .dropdwn {
+  background-color: #DAFFED;
+}
+
+li.dropdown {
+  display: inline-block;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #B8EBBE;
+  min-width: 60px;
+  box-shadow: 0px 4px 10px;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto;
+  padding: 10px;
+  height: calc(100vh - 191px);
+  max-width: 950px;
+  margin: auto;
+}
+
+.column {
+  display: inline-block;
+  flex-direction: column;
+  width: calc(33.3333%vw - 40px);
+  margin: 0px 10px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  overflow-x: auto;
+  max-width: 840px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #B8EBBE;
+  border: 6px double #7A7978;
+  border-radius: 20px;
+  box-shadow: 4px 4px 2px;
+  width: 270px;
+  height: 225px;
+}
+
+img {
+  width: 100%;
+}
+
+.center {
+  height: 500px;
+}
+
+.top {
+  margin-bottom: 40px;
+}
+
+.box {
+  display: flex;
+  margin-top: 20px;
+}
+
+.wide {
+  width: 500px;
+  margin-right: 40px;
+}
+
+.long {
+  width: 500px;
+  margin-left: 40px;
+}
