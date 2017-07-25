@@ -35,6 +35,21 @@ h3 {
   padding-left: 10px;
 }
 
+h3 a {
+  font-family:'Merienda One', cursive, serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: #7A7978;
+}
+
+h3 a:hover {
+ text-decoration: underline; 
+}
+
+h4 {
+  font-family: 'Arima Madurai', cursive, sans-serif;
+  color: #7A7978
+}
 
 .banner {
   background-color: #DAFFED;
@@ -169,7 +184,9 @@ img {
   width: 500px;
   margin-right: 40px;
   margin-left: 0;
-  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .reverse {
@@ -179,4 +196,15 @@ img {
 .reverse .wide {
   margin-left: 40px;
   margin-right: 0;
+}
+
+.end {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.nnl {
+  border-radius: 0;
 }
